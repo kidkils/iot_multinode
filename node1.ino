@@ -1,3 +1,5 @@
+#include <dht.h>
+#define sensor 14 //D5 PIN ESP8266
 dht DHT;
 const int sensor_pin = A0;
 

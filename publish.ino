@@ -1,5 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
+#include <dht.h>
+#define sensor 14 //D5 PIN ESP8266
+
+dht DHT;
+const int sensor_pin = A0;
 
 // Update these with values suitable for your network.
 
